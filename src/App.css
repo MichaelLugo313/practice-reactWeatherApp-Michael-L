@@ -1,0 +1,83 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+.city-list h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.cities {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.city-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.city-button:hover {
+  transform: scale(1.05);
+  background: #0056b3;
+}
+
+.forecast {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.details-btn {
+  margin: 1.5rem 0;
+  padding: 0.8rem 1.5rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.details-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  text-align: left;
+  border-left: 5px solid #007bff;
+}
+
+.back-btn {
+  margin-top: 2rem;
+  padding: 0.7rem 1.2rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
